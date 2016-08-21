@@ -45,6 +45,11 @@
             <version>2.1.2</version>
         </dependency>
         <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcpkix-jdk15on</artifactId>
+            <version>1.54</version>
+        </dependency>
+        <dependency>
             <groupId>org.specs2</groupId>
             <artifactId>specs2-core_2.11</artifactId>
             <version>3.8.3</version>
