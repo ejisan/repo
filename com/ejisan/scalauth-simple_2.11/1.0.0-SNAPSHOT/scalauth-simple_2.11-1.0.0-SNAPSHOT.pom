@@ -10,24 +10,6 @@
     <organization>
         <name>com.ejisan</name>
     </organization>
-    <url>https://github.com/ejisan/scalauth-otp</url>
-    <licenses>
-        <license>
-            <name>Apache-2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
-        </license>
-    </licenses>
-    <scm>
-        <connection>scm:git@github.com:ejisan/scalauth-otp.git</connection>
-        <developerConnection>scm:git@github.com:ejisan/scalauth-otp.git</developerConnection>
-        <url>https://github.com/ejisan/scalauth-otp</url>
-    </scm>
-    <developers>
-        <developer>
-            <id>ejisan</id>
-            <name>Ryo Ejima</name>
-        </developer>
-    </developers>
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
@@ -41,8 +23,8 @@
         </dependency>
         <dependency>
             <groupId>com.typesafe.scala-logging</groupId>
-            <artifactId>scala-logging-slf4j_2.11</artifactId>
-            <version>2.1.2</version>
+            <artifactId>scala-logging_2.11</artifactId>
+            <version>3.5.0</version>
         </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
@@ -52,7 +34,7 @@
         <dependency>
             <groupId>org.specs2</groupId>
             <artifactId>specs2-core_2.11</artifactId>
-            <version>3.8.3</version>
+            <version>3.8.6</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
