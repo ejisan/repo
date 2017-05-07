@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.ejisan</groupId>
+    <artifactId>scalauthx-otp_2.11</artifactId>
+    <packaging>jar</packaging>
+    <description>scalauthx-otp</description>
+    <version>2.0.2</version>
+    <name>scalauthx-otp</name>
+    <organization>
+        <name>com.ejisan</name>
+    </organization>
+    <url>https://github.com/ejisan/scalauthx-otp</url>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git@github.com:ejisan/scalauthx-otp.git</connection>
+        <developerConnection>scm:git@github.com:ejisan/scalauthx-otp.git</developerConnection>
+        <url>https://github.com/ejisan/scalauthx-otp</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>ejisan</id>
+            <name>Ryo Ejima</name>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.11.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2-core_2.11</artifactId>
+            <version>3.8.6</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
